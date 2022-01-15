@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "SImple password generator using NODE JS",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SHUBHAM KUMAR",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^5.0.0",
+    "chalk": "^4.1.1",
     "clipboardy": "^3.0.0",
-    "commander": "^8.3.0"
+    "commander": "^8.0.0"
   }
 }
